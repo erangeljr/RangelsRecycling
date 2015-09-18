@@ -17,7 +17,7 @@ function run() {
             ], 100);
         };
         image.crossOrigin = 'anonymous';
-        image.src = '~/images/slideshow-eco-4-rain.jpg';
+        image.src = "../images/slideshow-eco-4-rain.jpg";
     }
     //.ready start
 $(document).ready(function() {
