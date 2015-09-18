@@ -7,6 +7,7 @@
 @import url("prettyPhoto.css");
 @import url("recycling.css");
 /*******Revolution Slider*********/
-@import url("../js/plugins/revolution/css/extralayers.css");
-@import url("../js/plugins/revolution/css/settings.css");
-@import url("../js/plugins/revolution/css/style.css");
+@import url("../Scripts/plugins/revolution/css/extralayers.css");
+@import url("../Scripts/plugins/revolution/css/settings.css");
+@import url("../Scripts/plugins/revolution/css/style.css");
+
