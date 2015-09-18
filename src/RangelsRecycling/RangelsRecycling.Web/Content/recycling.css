@@ -1,0 +1,35 @@
+.aluminum
+{
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    color:#fff;
+    -webkit-font-smoothing: antialiased;
+    margin:auto;
+    background: url("../fonts/bottle.svg") center no-repeat;
+}
+
+.plastics
+{
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    color:#fff;
+    -webkit-font-smoothing: antialiased;
+    margin:auto;
+    background: url("../fonts/bottle_plastic.svg")  center no-repeat;;
+}
+
+.glass-bottle
+{
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    color:#fff;
+    -webkit-font-smoothing: antialiased;
+    margin:auto;
+    background: url("../fonts/bottle_glass.svg")  center no-repeat;;
+}
