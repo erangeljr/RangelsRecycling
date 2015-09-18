@@ -192,6 +192,9 @@
     <Content Include="Content\recycling.css" />
     <Content Include="Content\style.css" />
     <Content Include="favicon.ico" />
+    <Content Include="fonts\bottle.svg" />
+    <Content Include="fonts\bottle_glass.svg" />
+    <Content Include="fonts\bottle_plastic.svg" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

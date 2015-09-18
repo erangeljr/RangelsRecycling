@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg
+    height="60px"
+    style="shape-rendering:geometricPrecision;
+    text-rendering:geometricPrecision;
+    image-rendering:optimizeQuality;
+    fill-rule:evenodd; clip-rule:evenodd"
+    version="1.1"
+    viewBox="0 0 4335 4335"
+    width="60px"
+    xml:space="preserve"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+    <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#ffffff}
+   ]]>
+  </style></defs>
+  <g id="Layer_x0020_1">
+  <path class="fil0" d="M1594 4130c60,83 73,114 220,115 104,1 211,0 315,0l3 0c105,0 211,1 315,0 148,-1 160,-31 220,-115 9,-39 16,-103 20,-182l0 -1795c-12,-154 -36,-293 -83,-391 -127,-261 -195,-138 -215,-402l-60 -879c-14,-208 1,-128 13,-191 9,-44 -4,-32 -6,-72 -4,-82 76,-125 -138,-124 -19,0 -40,0 -62,-1l0 0 -6 0 -6 0 0 0c-22,1 -43,1 -62,1 -214,-2 -135,41 -138,124 -2,40 -15,28 -6,72 12,63 28,-17 13,191l-60 879c-19,264 -88,140 -215,402 -47,98 -71,237 -83,391l0 1795c5,79 11,143 20,182z"/>
+  </g>
+</svg>
