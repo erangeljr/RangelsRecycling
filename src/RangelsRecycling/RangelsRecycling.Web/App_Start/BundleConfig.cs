@@ -11,6 +11,10 @@ namespace RangelsRecycling.Web
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/jquery-ui").Include(
+           "~/Scripts/plugins/jquery-ui/jquery-ui-1.11.4.js",
+           "~/Scripts/plugins/jquery-ui/jquery.ui.accordion.min.js"));
+
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.validate*"));
 
