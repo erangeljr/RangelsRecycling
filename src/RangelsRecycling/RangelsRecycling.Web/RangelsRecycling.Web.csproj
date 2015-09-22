@@ -340,8 +340,6 @@
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\scrollReveal.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="tile-wide.png" />
-    <Content Include="tile.png" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
