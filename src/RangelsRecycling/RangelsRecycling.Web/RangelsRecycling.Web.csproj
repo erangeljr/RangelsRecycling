@@ -221,6 +221,7 @@
     <Content Include="images\main-border-line.png" />
     <Content Include="images\main_slider\dummy.png" />
     <Content Include="images\main_slider\slideshow-background-1.jpg" />
+    <Content Include="images\main_slider\slideshow-eco-4-rain.jpg" />
     <Content Include="images\main_slider\transparent.png" />
     <Content Include="images\main_slider\tree-slideshow-11.png" />
     <Content Include="images\main_slider\tree-slideshow-leaf-1.png" />
