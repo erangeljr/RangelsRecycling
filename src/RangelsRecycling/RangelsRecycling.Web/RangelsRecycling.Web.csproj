@@ -244,6 +244,8 @@
     <Content Include="images\main_slider\video-background-slideshow-poster.jpg" />
     <Content Include="images\page\image-breadcrumb-eco.jpg" />
     <Content Include="images\page\video-background-eco.jpg" />
+    <Content Include="images\rangelsrecycling-logo-footer.png" />
+    <Content Include="images\rangelsrecycling-logo-main.png" />
     <Content Include="images\revslider-arrows.png" />
     <Content Include="images\shortcode\bullet-circle-black.png" />
     <Content Include="images\shortcode\bullet.png" />
