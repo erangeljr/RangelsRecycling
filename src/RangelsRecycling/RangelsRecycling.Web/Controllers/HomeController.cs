@@ -32,5 +32,17 @@ namespace RangelsRecycling.Web.Controllers
             ViewBag.Message = "California Refund Value";
             return View();
         }
+
+        public ActionResult Rates()
+        {
+            ViewBag.Message = "Our Current Rates";
+            return View();
+        }
+
+        public ActionResult FAQ()
+        {
+            ViewBag.Message = "Frequently Asked Questions";
+            return View();
+        }
     }
 }
