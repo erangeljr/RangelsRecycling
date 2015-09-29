@@ -44,5 +44,11 @@ namespace RangelsRecycling.Web.Controllers
             ViewBag.Message = "Frequently Asked Questions";
             return View();
         }
+
+        public ActionResult Hours()
+        {
+            ViewBag.Message = "Our Current Hours";
+            return View();
+        }
     }
 }
