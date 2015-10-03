@@ -1,54 +1,92 @@
-﻿<div class="table-responsive">
-    <table class="table table-striped table-bordered table-hover">
-        <thead>
-            <tr>
-                <td>Material</td>
-                <td>Price Per Pound</td>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Aluminum</td>
-                <td>$1.58</td>
-            </tr>
-            <tr>
-                <td>Glass</td>
-                <td>$0.105</td>
-            </tr>
-            <tr>
-                <td>Bi-metal</td>
-                <td>$0.35</td>
-            </tr>
-            <tr>
-                <td>#1 PET Plastic (Polyethylene Terephthalate)</td>
-                <td>$1.17</td>
-            </tr>
-            <tr>
-                <td>#2 HDPE Plastic (High Density Polyethylene)</td>
-                <td>$0.59</td>
-            </tr>
-            <tr>
-                <td>#3 PVC Plastic (Polyvinyl Chloride)</td>
-                <td>$0.56</td>
-            </tr>
-            <tr>
-                <td>#4 LDPE Plastic (Low Density Polyethylene)</td>
-                <td>$2.03</td>
-            </tr>
-            <tr>
-                <td>#5 PP (Polypropylene)</td>
-                <td>$0.57</td>
-            </tr>
-            <tr>
-                <td>#6 PS (Polystyrene)</td>
-                <td>$5.53</td>
-            </tr>
-            <tr>
-                <td>#7 Other</td>
-                <td>$0.31</td>
-            </tr>
+﻿<div class="container">
+    <div class="col-lg-10">
+        <div class="well bs-component">
+            <form class="form-horizontal">
+                <fieldset>
+                    <legend>Customer Information</legend>
+                    <div class="form-group">
+                        <label for="inputFirstName" class="col-lg-2 control-label">First Name</label>
+                        <div class="col-lg-10">
+                            <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputLastName" class="col-lg-2 control-label">Last Name</label>
+                        <div class="col-lg-10">
+                            <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                        <div class="col-lg-10">
+                            <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div class="well bs-component">
+            <form class="form-horizontal">
+                <fieldset>
+                    <legend>Material Information</legend>
+                    <div class="form-group">
+                        <label for="select" class="col-lg-2 control-label">Type</label>
+                        <div class="col-lg-10">
+                            <select class="form-control" id="select">
+                                <option>Aluminum</option>
+                                <option>Glass</option>
+                                <option>#1 PET</option>
+                                <option>#2</option>
+                                <option>#3</option>
+                                <option>#4</option>
+                                <option>#5</option>
+                                <option>#6</option>
+                                <option>#7</option>
+                            </select>
+                        </div>
+                    </div> <div class="form-group">
+                        <label class="col-lg-2 control-label">CRV</label>
+                        <div class="col-lg-10">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+                                    CRV
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                    Scrap (Non-CRV)
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">Segragated</label>
+                        <div class="col-lg-10">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+                                    Weight
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                    Count
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputWeight" class="col-lg-2 control-label">Weight</label>
+                        <div class="col-lg-10">
+                            <input type="text" class="form-control" id="inputFirstName" placeholder="Weight in Lbs.">
+                        </div>
+                    </div>
 
-        </tbody>
-    </table>
-
+                </fieldset>
+            </form>
+        </div>
+    </div>
 </div>

@@ -9,12 +9,12 @@ namespace RangelsRecycling.Web.Controllers
 {
     public class MaterialController : Controller
     {
-        private IMaterialRepository _materialRepository;
+        //private IMaterialRepository _materialRepository;
 
-        public MaterialController(IMaterialRepository repository)
-        {
-            _materialRepository = repository;
-        }
+        //public MaterialController(IMaterialRepository repository)
+        //{
+        //    _materialRepository = repository;
+        //}
 
         public ActionResult ProcessMaterial()
         {
