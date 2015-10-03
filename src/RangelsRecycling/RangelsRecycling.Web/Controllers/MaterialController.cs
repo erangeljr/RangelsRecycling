@@ -16,5 +16,10 @@ namespace RangelsRecycling.Web.Controllers
             _materialRepository = repository;
         }
 
+        public ActionResult ProcessMaterial()
+        {
+            return View();
+        }
+
     }
 }

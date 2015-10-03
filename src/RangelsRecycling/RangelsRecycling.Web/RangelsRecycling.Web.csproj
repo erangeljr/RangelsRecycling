@@ -171,6 +171,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MaterialController.cs" />
+    <Compile Include="Controllers\SummaryController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -389,11 +390,17 @@
     <Content Include="Views\Home\Rates.cshtml" />
     <Content Include="Views\Home\FAQ.cshtml" />
     <Content Include="Views\Home\Hours.cshtml" />
+    <Content Include="Views\Summary\Index.cshtml" />
+    <Content Include="Views\Summary\ObcSummary.cshtml" />
+    <Content Include="Views\Material\ProcessMaterial.cshtml" />
+    <Content Include="Views\Summary\FacilitySummary.cshtml" />
+    <Content Include="Views\Summary\OptionSummary.cshtml" />
+    <Content Include="Views\Summary\MaterialSummary.cshtml" />
+    <Content Include="Views\Home\Mainboard.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="images\prettyPhoto\" />
-    <Folder Include="Views\Material\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

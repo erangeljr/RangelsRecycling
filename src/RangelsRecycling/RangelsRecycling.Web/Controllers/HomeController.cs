@@ -50,5 +50,10 @@ namespace RangelsRecycling.Web.Controllers
             ViewBag.Message = "Our Current Hours";
             return View();
         }
+
+        public ActionResult Mainboard()
+        {
+            return View();
+        }
     }
 }
