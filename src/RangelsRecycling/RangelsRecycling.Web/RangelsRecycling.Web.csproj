@@ -420,6 +420,7 @@
     <Content Include="Views\Summary\MaterialSummary.cshtml" />
     <Content Include="Views\Home\Mainboard.cshtml" />
     <Content Include="Views\Home\Location.cshtml" />
+    <Content Include="Views\Material\List.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

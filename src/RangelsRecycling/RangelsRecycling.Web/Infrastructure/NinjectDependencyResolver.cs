@@ -5,6 +5,8 @@ using System.Web;
 using System.Web.Mvc;
 using Moq;
 using Ninject;
+using RangelsRecycling.Domain.Abstract;
+using RangelsRecycling.Domain.Models;
 
 namespace RangelsRecycling.Web.Infrastructure
 {
@@ -21,6 +23,14 @@ namespace RangelsRecycling.Web.Infrastructure
         private void AddBindings()
         {
             //Adding Bindings
+            Mock<IMaterialRepository> mock = new Mock<IMaterialRepository>();
+            mock.Setup(m => m.Materials).Returns(new List<Material>
+            {
+                new Material { MaterialId = 1, Name = "Aluminum", Description = "Aluminum Desc"},
+                new Material { MaterialId = 2, Name = "Glass", Description = "Glass Desc"},
+                new Material { MaterialId = 1, Name = "#1", Description = "#1 PET Desc"},
+            });
+            _kernel.Bind<IMaterialRepository>().ToConstant(mock.Object);
         }
 
         public object GetService(Type serviceType)

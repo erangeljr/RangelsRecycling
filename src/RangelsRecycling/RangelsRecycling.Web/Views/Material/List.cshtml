@@ -1,0 +1,11 @@
+﻿@using RangelsRecycling.Domain.Models
+@model IEnumerable<Material>
+
+@foreach (var m in Model)
+{
+    <div>
+        <h3>@m.Name</h3>
+        <h4>@m.Description</h4>
+    </div>
+}
+
