@@ -397,6 +397,7 @@
     <Content Include="Views\Summary\OptionSummary.cshtml" />
     <Content Include="Views\Summary\MaterialSummary.cshtml" />
     <Content Include="Views\Home\Mainboard.cshtml" />
+    <Content Include="Views\Home\Location.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
