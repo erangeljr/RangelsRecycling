@@ -8,6 +8,6 @@ namespace RangelsRecycling.Web.Models
 {
     public class MaterialsListViewModel
     {
-        IEnumerable<Material> Materials { get; set; }
+        public IEnumerable<Material> Materials { get; set; }
     }
 }

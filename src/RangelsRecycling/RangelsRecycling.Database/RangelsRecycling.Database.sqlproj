@@ -64,6 +64,6 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Materials.sql" />
-    <Build Include="Scripts\PostDeployment\PopulateMaterials.sql" />
+    <PostDeploy Include="Scripts\PostDeployment\PopulateMaterials.sql" />
   </ItemGroup>
 </Project>

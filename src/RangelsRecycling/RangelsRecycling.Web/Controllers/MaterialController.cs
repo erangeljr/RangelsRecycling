@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using RangelsRecycling.Domain.Abstract;
+using RangelsRecycling.Domain.Models;
+using RangelsRecycling.Web.Models;
 
 namespace RangelsRecycling.Web.Controllers
 {
@@ -18,7 +20,11 @@ namespace RangelsRecycling.Web.Controllers
 
         public ViewResult List()
         {
-            return View(_materialRepository.Materials);
+            var model = new MaterialsListViewModel
+            {
+                Materials = _materialRepository.Materials.OrderBy(m => m.MaterialId)
+            };
+            return View(model);
         }
 
         public ActionResult ProcessMaterial()
