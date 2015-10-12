@@ -438,6 +438,10 @@
       <Project>{493bd45f-3364-44a2-9e44-481ea46cb81a}</Project>
       <Name>RangelsRecycling.Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\RangelsRecycling.Infrastructure\RangelsRecycling.Infrastructure.csproj">
+      <Project>{2a6680ba-9eb8-46be-a8a6-bb3e34d148fa}</Project>
+      <Name>RangelsRecycling.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
