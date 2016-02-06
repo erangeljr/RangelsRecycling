@@ -20,7 +20,7 @@ namespace RangelsRecycling.Web.Controllers
 
         public ViewResult List()
         {
-            var model = new MaterialsListViewModel
+            MaterialsListViewModel model = new MaterialsListViewModel
             {
                 Materials = _materialRepository.Materials.OrderBy(m => m.MaterialId)
             };

@@ -1,7 +1,10 @@
-﻿@using RangelsRecycling.Domain.Models
-@model IEnumerable<Material>
+﻿@model RangelsRecycling.Web.Models.MaterialsListViewModel
 
-@foreach (var m in Model)
+@{
+    ViewBag.Title = "Materials";
+}
+
+@foreach (var m in Model.Materials)
 {
     <div>
         <h3>@m.Name</h3>
